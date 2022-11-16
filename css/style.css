@@ -148,4 +148,48 @@
     transition: all 1s;
     color: #fff;
   }
+/* Services */
+.services i {
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: #edc842;
+    border-radius: 50%;
+    margin: auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #edc842;
+  }
+  .services p {
+    color: #747474;
+    font-family: "SeRoboto Slab", serif;
+  }
   
+  /*Portfolio*/
+  .portfolio {
+    background: rgb(237, 237, 237);
+  }
+  .portfolio img {
+    width: 300px;
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  .card {
+    /* Add shadows to create the "card" effect */
+    transition: 0.3s;
+    max-width: 300px;
+    display: inline-block;
+    margin: 20px;
+    background: white;
+  }
+  .card p {
+    font-family: "SeRoboto Slab", serif;
+    color: #747474;
+    font-style: italic;
+    font-size: 18px;
+    margin-top: -40px;
+    padding-bottom: 20px;
+  }  
